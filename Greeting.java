@@ -1,11 +1,13 @@
 class Greeting {
   public static void main(String[] args) {
-    int x = 8;
-    int y = 8;
-    x++;
-    y--;
+    int age = 0;
 
-    System.out.println(x);
-    System.out.println(y);
+    if (age >= 20){
+      System.out.println("adult");
+    } else if (age==0){
+      System.out.println("baby");
+    } else {
+      System.out.println("child");
+    }
   }
 }
